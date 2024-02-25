@@ -1,3 +1,8 @@
+/*
+ * File: 10-add.c 
+ * Auth: DJ Mercado
+ */
+
 #include "main.h"
 /**
  * add - adds two integers.
