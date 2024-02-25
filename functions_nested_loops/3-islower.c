@@ -3,6 +3,7 @@
 /**
  *  _islower : checks for lowercase character.
  * @c: the character to be checked
+ * Author: DJ Mercado
  *
  * Return: 1 if the character is lowercase, if not 0.
  */
