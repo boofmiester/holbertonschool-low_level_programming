@@ -3,17 +3,19 @@
  * puts_half(char *str) - prints half of a string,
  *                        followed by a new line.
  * @str: char array string
- * Description: if character is odd it prints lenght
- *              if not by half.
+ * Description: if the lenght of the string is odd, it prints the
+ *              2nd half.
+ *              if the lenght is even, it prints the last half.
  */
 
 void puts_half(char *str)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
-;
-i++;
-for (i /= 2; str[i] != '\0'; i++)
+int i, length = 0;
+while (str[length] != '\0')
+{
+length++;
+}
+for (i = (length + 1) / 2; i < length; i++)
 {
 _putchar(str[i]);
 }
