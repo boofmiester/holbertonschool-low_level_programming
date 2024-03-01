@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * puts_half(char *str) - prints half of a string,
- *                        followed by a new line.
+ * puts_half - prints half of a string,
+ *             followed by a new line.
  * @str: char array string
  * Description: if the lenght of the string is odd, it prints the
  *              2nd half.
