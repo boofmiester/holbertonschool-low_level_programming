@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /*
  * strcat - function that concatenates two strings.
